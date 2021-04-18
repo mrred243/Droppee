@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Droppe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project follows instructions from a challenge from Droppe.
 
-## Available Scripts
+## Instruction
 
-In the project directory, you can run:
+
+### `yarn`
+
+Install needed dependencies
 
 ### `yarn start`
 
@@ -19,52 +22,14 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## External Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses SCSS preprocessor for styling and React Router for directing to pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Solution
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The user flow is after signing in with his/her account, the page automatically loads the list of children's wish lists at the main page. There is a explanation about the discount rule in the top of the page. Next is the wish lists. The wish lists have an area for comments so that the user can note what can effect his/her decision (like the behaviors or interests of the child or budgets and so on). They freely interact with the wish lists to discard or approve them. Then he/she moves to next Checkout page where identical gifts are combined together and their price/ discount shows. If he/she clicks confirm button, then data will be send the server and the page redirects to Conformation Page, the server return a confirmation with the approved as well as discarded wish lists one last time.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
