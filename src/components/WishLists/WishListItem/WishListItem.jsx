@@ -4,20 +4,20 @@ const WishListItem = ({ wishListItem, wishListId , onUpdateProductQty, onRemoveP
     
     if(!wishListItem) return 'Loading...'
     return (
-        <div>
+        <div className='wl__products'>
             {
                 wishListItem.map( (product,index) => (
-                                <div key={index}>
+                                <div className={index === 0 ? 'wl__item firstChild' : 'wl__item' }  key={index}>
                                     <p>
                                         Product: {product.productId}
                                     </p>
                                     <p>Price: ${product.productId * 10} / pc</p>
                                     
-                                    <button onClick={() => onRemoveProduct(wishListId, index)} >Remove</button>
+                                    <button className='btn primary' onClick={() => onRemoveProduct(wishListId, index)} >REMOVE</button>
                                     <p>
-                                        <button onClick={() => onUpdateProductQty(wishListId, index, product.quantity - 1) } >-</button> 
+                                        <button className='btn secondary' onClick={() => onUpdateProductQty(wishListId, index, product.quantity - 1) } >-</button> 
                                          {product.quantity}  
-                                        <button onClick={() => onUpdateProductQty(wishListId, index, product.quantity + 1) } >+</button>
+                                        <button className='btn secondary' onClick={() => onUpdateProductQty(wishListId, index, product.quantity + 1) } >+</button>
                                     </p>
                                    
                                 </div>

@@ -1,0 +1,36 @@
+#root {
+    font-family: $ff-primary;
+    font-size: $fs-body;
+    line-height: 1.43;
+    color: $clr-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: 222222;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: $fs-h1;
+  font-weight: $fw-bold;
+}
+h2 {
+  font-size: $fs-h2;
+  font-weight: $fw-bold;
+}
+h3 {
+  font-size: $fs-h3;
+  font-weight: $fw-bold;
+}
+
+.brandName{
+    color: $clr-accent1;
+}
+
+.subtitle{
+    font-size: 0.85 * $fs-body;
+}

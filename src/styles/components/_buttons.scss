@@ -1,0 +1,27 @@
+.btn {
+    padding: .5em .7em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.primary{
+    background-color: black;
+    color: $clr-light;
+    border: 1px solid $clr-light;
+    &:hover{
+        background-color: $clr-light;
+        color: black;
+        border: 1px solid black;
+    }
+}
+
+.secondary{
+    background-color: $clr-light;
+    border: 1px solid black;
+    &:hover{
+        background-color: black;
+        color: $clr-light;
+    }
+}

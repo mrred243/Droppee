@@ -1,0 +1,45 @@
+.checkout.item{
+    background-color: $clr-lightgrey;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.totalPrice{
+    font-size: $fs-h3;
+}
+
+.checkout__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainSection{
+    width: 65%;
+}
+
+.sideSection{
+    width: 30%;
+    background-color: $clr-lightgrey;
+    padding: 15px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+@media(max-width: 550px) {
+    .mainSection{
+        width: 100%;
+        display: block;
+    }
+    .sideSection{
+        width: 100%;
+    }
+}
+
+.btn.buy{
+    margin: 0;
+    width: 100%;
+    font-size: 1.2 * $fs-body;
+    font-weight: $fw-bold;
+}

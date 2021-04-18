@@ -1,0 +1,52 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box
+}
+
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    &:visited{
+        color: $clr-text;
+      }
+    &:hover{
+        text-decoration:double;
+    }
+}
+
+input {
+    font-family: $ff-primary;
+}
+
+button {
+    font-family: $ff-primary;
+}
+
+section {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1760px;
+    margin: 0 auto;
+}
+
+@media (min-width: 744px) {
+    section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
